@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Environment & Secrets
+.env
+.env.local
+
+# Data files
+*.csv
+*.json
+data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+cryptodata-env
