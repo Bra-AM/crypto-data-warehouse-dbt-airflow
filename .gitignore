@@ -8,19 +8,13 @@ env/
 venv/
 .venv/
 
-# dbt (allow some files)
+# dbt (keep some important files)
 dbt_packages/
 logs/
-# target/ # Commented out to allow compiled SQL
 
 # Environment & Secrets
 .env
 .env.local
-
-# Data files (allow some)
-# *.csv # Commented out to allow data files
-# *.json # Commented out to allow some JSON
-data/
 
 # OS
 .DS_Store
