@@ -1,10 +1,10 @@
-# 🚀 Cryptocurrency Data Warehouse with Advanced Analytics
+# Cryptocurrency Data Warehouse with Advanced Analytics
 
 A professional end-to-end data pipeline that extracts real-time cryptocurrency data, performs advanced mathematical transformations, and provides business-ready analytics for investment decision-making.
 
 ![Data Pipeline](https://img.shields.io/badge/Pipeline-Real--Time-brightgreen) ![dbt](https://img.shields.io/badge/dbt-Transformations-orange) ![SQLite](https://img.shields.io/badge/Database-SQLite-blue) ![API](https://img.shields.io/badge/Data-CoinGecko%20API-yellow)
 
-## 📊 Project Overview
+## Project Overview
 
 This project demonstrates a complete **ELT (Extract, Load, Transform)** data pipeline that processes cryptocurrency data with mathematical rigor, delivering actionable insights for financial analysis.
 
@@ -14,18 +14,18 @@ This project demonstrates a complete **ELT (Extract, Load, Transform)** data pip
 - **Professional data architecture** with layered transformations
 - **Business-ready analytics** with growth classification and risk assessment
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
-📡 CoinGecko API
+ CoinGecko API
     ↓
-🔄 Python Extraction
+ Python Extraction
     ↓
-📊 SQLite Data Warehouse
+ SQLite Data Warehouse
     ↓
-🔧 dbt Transformations
+ dbt Transformations
     ↓
-📈 Analytics Dashboard
+ Analytics Dashboard
 ```
 
 ### Data Flow Layers
@@ -37,7 +37,7 @@ This project demonstrates a complete **ELT (Extract, Load, Transform)** data pip
 | **Intermediate** | Mathematical transformations | 90 | Advanced SQL |
 | **Marts** | Business analytics | 3 | Executive dashboard |
 
-## 💰 Key Results
+##  Key Results
 
 Our analysis of **30 days** of cryptocurrency data reveals:
 
@@ -54,7 +54,7 @@ Our analysis of **30 days** of cryptocurrency data reveals:
 - **Growth Classification**: Automated categorization based on return patterns
 - **Risk Assessment**: Daily volatility analysis with threshold-based classification
 
-## 🔧 Technical Implementation
+##  Technical Implementation
 
 ### Technologies Used
 - **Python** - Data extraction and API integration
@@ -71,27 +71,27 @@ Our analysis of **30 days** of cryptocurrency data reveals:
 - **Performance Metrics**: Cumulative returns using exponential of log returns
 - **Growth Classification**: Automated business logic for investment decisions
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 crypto-data-warehouse-dbt-airflow/
-├── 📊 extract/
+├──  extract/
 │   ├── extract_crypto.py          # CoinGecko API integration
 │   └── crypto_data_*.csv          # Raw extracted data
-├── 🔄 load/
+├──  load/
 │   └── load_to_sqlite.py          # Database loading logic
-├── 🎯 dbt_project/
+├──  dbt_project/
 │   ├── models/
 │   │   ├── staging/               # Data cleaning layer
 │   │   ├── intermediate/          # Mathematical transformations  
 │   │   └── marts/                 # Business analytics
 │   ├── dbt_project.yml           # dbt configuration
 │   └── profiles.yml              # Database connections
-├── 🗄️ crypto_warehouse.db         # SQLite data warehouse
-└── 📋 README.md                   # Project documentation
+├──  crypto_warehouse.db         # SQLite data warehouse
+└──  README.md                   # Project documentation
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.13+
@@ -161,7 +161,7 @@ FROM marts_crypto_analytics
 ORDER BY total_return_pct DESC;
 ```
 
-## 🎯 Business Value
+##  Business Value
 
 ### For Investment Decision-Making
 - **Risk Assessment**: Quantified volatility analysis for portfolio management
@@ -175,7 +175,7 @@ ORDER BY total_return_pct DESC;
 - **Scalable Foundation**: Easily extensible to additional cryptocurrencies
 - **Production-Ready**: Proper error handling, logging, and data validation
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - **Apache Airflow**: Automated scheduling and monitoring
 - **Advanced Visualizations**: Interactive dashboards with Plotly/Streamlit
@@ -183,7 +183,7 @@ ORDER BY total_return_pct DESC;
 - **Portfolio Optimization**: Multi-asset correlation analysis
 - **Real-time Streaming**: Continuous data ingestion and processing
 
-## 📊 Sample Output
+##  Sample Output
 
 **Final Analytics Dashboard:**
 ```
@@ -193,15 +193,3 @@ ADA    | +60.87%      | High Growth     | 6         | 0.015848
 ETH    | +65.04%      | High Growth     | 5         | 0.016701  
 BTC    | +17.72%      | Moderate Growth | 0         | 0.005438
 ```
-
-## 🤝 Contributing
-
-This project demonstrates professional data engineering practices and mathematical modeling techniques. Feel free to explore the code and adapt it for your own cryptocurrency analysis needs.
-
-## 📧 Contact
-
-**Project Showcase**: This repository demonstrates advanced data engineering, mathematical modeling, and business analytics capabilities for professional portfolio purposes.
-
----
-
-*Built with mathematical precision and professional data engineering practices* 🚀
